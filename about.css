@@ -1,0 +1,68 @@
+
+
+.mainly{
+	display: grid;
+	width: 80%;
+	margin-left: 90px;
+	grid-template-columns: 1fr, 4fr, 0.7fr;
+	grid-template-areas: 
+			"about about"
+			"info pics"
+			"info pics";
+
+}
+
+.about{
+	width: 100%;
+	text-align: right;
+	font-family: cursive;
+	font-size: 2vw;
+	margin: 10px;
+	color: rgba(170, 155, 57, 0.5);
+	grid-area: about; /* This has to be the name used in the "grid-template-areas". It`s not necessary to be the div name*/
+}
+
+h1{
+	color: rgba(0,0,0,0.7);
+}
+
+.info{
+	background-color: rgba(113, 113, 175, 0.2);
+	width: 94%;
+	font-family: sans-serif;
+	margin-left: 50px;
+	font-size: 1.2vw;
+	color: #fff;
+	grid-area: info; /* This has to be the name used in the "grid-template-areas". It`s not necessary to be the div name*/
+}
+
+.info p, .ab{
+	margin: 20px;
+	padding: 20px;
+	font-size: 1.5vw;
+}
+
+.pics{
+	display: grid;
+	align-items: space-around;
+	padding: 10px;
+	background-color: rgba(113, 113, 175, 0.3);
+	grid-area: pics; /* This has to be the name used in the "grid-template-areas". It`s not necessary to be the div name*/
+}
+
+
+.info ul{
+	margin: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    color: #fff;
+}

@@ -1,0 +1,84 @@
+
+
+.menu {
+	display: flex;
+	max-width: 1400px;
+	padding: 20px;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+.navigation {
+	position: absolute;
+	right: 10%;
+	top: 5%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	margin: 0;
+	height: 30px;
+}
+
+	.navigation a {
+		text-decoration: none;
+		font-size: 1.5vw;
+		font-family: arial;
+		display: block;
+		padding: 10px;
+		color: rgb(255, 255, 255);
+	}
+
+
+ul {
+	list-style-type: none;
+}
+
+.navigation a:hover {
+	background: rgba(170, 155, 57, 0.5);
+	border-radius: 15px;
+}
+
+
+.polaroid {
+	display: grid;
+	margin-left: 5%;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: repeat 6fr 1fr;
+	max-width: 90%;
+}
+
+.text {
+	display: flex;
+	height: 3vh;
+	align-items: center;
+	background-color: rgba(0,0,0,0.2);
+	color: #000;
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+/*
+.zoom-in {
+  margin-top: 5vh;
+  min-width: 100%;
+  animation: zoom-in 5s ease infinite;
+  animation-duration: 15s;
+  animation-play-state: running;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.06, 1.06);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}  */

@@ -1,0 +1,83 @@
+@import "portfolio.css";
+@import "animation.css";
+@import "contact.css";
+@import "about.css";
+
+body, html {
+min-width: 100%;
+}
+
+
+.header {
+	top: 0;
+	position: fixed;
+	background-color: rgba(0,0,0,0.7);
+	min-width:100%;
+	height: 13vh;
+}
+
+.logo {
+	position: absolute;
+	left: 5%;
+	top: 2%;
+	opacity: 0.7;
+}
+
+.portfolio{
+	margin-top: 1px;
+	background-image: url("images/bcg4.jpg");
+
+}
+
+.a{
+	padding: 3px;
+	box-shadow: 0 4px 0 0 rgba(255, 255, 255, 0.5), 0 6px 7px 0;
+}
+
+.main{	
+	margin: 0;
+	width: 100%;
+}
+
+#p1{
+	padding-top: 80px;
+    margin-top: -80px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+#c1{
+	background-image: url("images/bcg5.png");
+	background-size: contain;
+	padding-top: 60px;
+    margin-top: -60px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+#a1{
+	background-image: url("images/bcg3.jpg");
+	height: 120vh;
+	padding-top: 70px;
+    margin-top: -70px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+.wrapper{
+	position: absolute;
+	left: 70%;
+	top: 85%;
+	transform: translate(-50%,-50%);
+	overflow: auto;
+}
+
+#itech{
+	color: rgb(170, 155, 57);
+}
+
+.port{
+	text-align: right;
+	margin-right: 5%;
+}
+
