@@ -37,15 +37,16 @@ h1{
 }
 
 .info p, .ab{
-	margin: 20px;
-	padding: 20px;
+	margin: 2vw;
+	color: #fff ;
+	padding: 2vw;
 	font-size: 1.5vw;
 }
 
 .pics{
 	display: grid;
 	align-items: space-around;
-	padding: 10px;
+	padding: 1vw;
 	background-color: rgba(113, 113, 175, 0.3);
 	grid-area: pics; /* This has to be the name used in the "grid-template-areas". It`s not necessary to be the div name*/
 }
@@ -57,12 +58,12 @@ h1{
 
 figure {
     border: thin #c0c0c0 solid;
+    width: 15vw;
     font-family: sans-serif;
     text-align: center;
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
     margin: auto;
     color: #fff;
 }
